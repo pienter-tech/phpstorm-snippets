@@ -1,0 +1,11 @@
+<templateSet group="react">
+    <template
+            name="rsc"
+            value="import React, { FunctionComponent } from 'react';&#10;&#10;const $componentName$: FunctionComponent = () => {&#10;  return (&#10;    <header>&#10;      <div>test</div>&#10;    </header>&#10;  );&#10;};&#10;&#10;export default Header;"
+            description="Creates a simple function component (no props)"
+    >
+        <variable name="componentName" expression="" defaultValue="&quot;MyComponent&quot;"
+                  alwaysStopAt="true"/>
+        <context/>
+    </template>
+</templateSet>
